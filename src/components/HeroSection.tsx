@@ -52,7 +52,7 @@ export const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm font-medium text-foreground mb-6">
+            <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm font-medium text-foreground mb-6 hidden">
               <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse" />
               Available for opportunities
             </span>
